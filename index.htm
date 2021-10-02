@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f879b81a50.js" crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+    <div>
+        <img src="images/profile.png" class="profile" alt="" srcset="">
+    </div>
+
+    <div>
+        <img src="images/sites.png" class="sites" alt="Photo of sites" srcset="">
+    </div>
+
+    <label for="input" class="label">▶Enter Your Name : </label>
+    <input type="text" id="searchbox" title="Enter Your Name.">
+
+    <div class="dropdown">
+        <span>
+
+    <a href="login.htm" target="_blank">
+<button class="Loginh3" title="Click Here To Visit Login Form."><h3>LOGIN</h3>
+
+</button>
+</a>
+</span>
+
+    <div class="dropdown-content">
+    <!-- <img src="images/form.png" alt="Form" srcset=""> -->
+    <div class="box" title="You Can Fill Up Form Here Also.">
+        <h2 class="h2text">Login</h2>
+        <br><br><br><br><br><br><br><br>
+
+
+        <form action="">
+            <i class="fas fa-window-close" id="closeicon" title="Close"></i>
+            <fieldset >
+                <legend>Login Form.</legend>
+                
+                <label id="full">🔴Full Name = </label><input type="text" id="name" title="Type Your Full Name."><br><br><br>
+                <br> <label id="pass"> 🟢Password = </label><input type="password" id="password" title="Type Your Password."><br><br><br><br><br>
+                <br><br><br><br>
+                <div>
+                    <input type="submit" value="▶submit◀" id="submit" title="Submit Your Login Form">
+                </div>
+
+            </fieldset>
+        </form>
+
+    </div>
+    </div>
+  </div>
+
+
+
+<!-- nav bar -->
+
+<ul>
+    <li><a href="index.htm">Home</a></li>
+    <li><a href="#">Creted</a></li>
+    <li><a href="#box" id="about">About Us</a></li>
+  </ul>
+
+
+  <!-- About Us -->
+  <div id="box">
+
+    <h2 style="text-align:center">About Us.</h2>
+
+<div class="card">
+  <img src="images/developer.jpg" class="dev" alt="Endragit" style="width:100%">
+  <h1>Endragit Sah</h1>
+  <p class="title">Websites Developer</p>
+  <p>Student</p>
+  <div style="margin: 24px 0;">
+    <pre>
+  
+    <a href="https://www.facebook.com/indrajit.shah.127" target="_blank"><i class="fa fa-facebook" id="facebook"></i></a>  <a href="mailto:endragitsah@gmail.com" target="_blank" title="Mail Us."><i class="fas fa-envelope" id="mail"></i> </a> 
+  </pre>
+  </div>
+  <p><button>Contact</button></p>
+</div>
+
+  </div>
+
+
+
+
+
+
+  <!-- button to top -->
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
+
+
+<!-- js for button to top -->
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+    <!-- <img src="images/photo.png" class="photo" height="300px" alt="" srcset="">
+
+    <a href="https://www.google.com" target="_blank" title="Visit Google.Com"><img src="images/apple.png" height="100px" alt="" srcset=""></a>
+    <img src="images/profile.png" class="pro" alt="" srcset=""> -->
+
+
+</body>
+
+</html>

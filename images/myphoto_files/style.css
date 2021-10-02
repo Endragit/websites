@@ -1,0 +1,26 @@
+body{
+    background-color: navy;
+    color: rgb(2, 250, 56);
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.border{
+    /* border-radius: 2px solid red; */
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image:url(me\ \(2\).svg);
+    border-radius: 50% 43% 37% 63% / 45% 52% 48% 55%;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05), 15px 25px 10px rgba(28, 1, 148, 0.425), 15px 20px 20px rgba(0, 0, 0, 0.05), inset -10px -10px 15px rgba(73, 14, 212, 0.9);
+    top: 10%;
+    left: 75%;
+}
+
+.box{
+    width: 300px;
+    border-color: black;
+}

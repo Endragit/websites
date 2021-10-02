@@ -1,0 +1,101 @@
+body {
+    background-color: grey;
+    background-image: url(https://thumbs.dreamstime.com/b/abstract-futuristic-dark-floor-white-hexagons-background-d-rendering-78325633.jpg); background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    background-color: white;
+    position: absolute;
+    border-style: solid;
+    border-width: medium;
+    border-color: yellow;
+    border-radius: 10px;
+    height: 500px;
+    width: 520px;
+    left: 30%;
+    top: 30%;
+}
+
+.h2text {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+
+#name {
+    position: absolute;
+    border-radius: 30px;
+    height: 40px;
+    border-color: rgb(156, 212, 0);
+    left: 23%;
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration-color: aqua;
+}
+
+#password {
+    position: absolute;
+    border-radius: 30px;
+    height: 40px;
+    border-color: rgb(156, 212, 0);
+    left: 23%;
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration-color: aqua;
+}
+
+#full {
+    position: absolute;
+    top: 36%;
+    left: 1%;
+    color: rgb(0, 17, 252);
+}
+
+#pass{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    color: rgb(0, 17, 252);
+}
+
+#submit{
+    position: absolute;
+    border-radius: 30px;
+    height: 40px;
+    width: 74px;
+    border-color: rgb(57, 0, 212);
+    left: 40%;
+    top: 70%;
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration-color: aqua;
+    background-color: rgb(0, 255, 55);
+    color: rgb(38, 0, 255);
+}
+
+fieldset{
+    border-color: blue;
+}
+
+#name:hover{
+    background-color: yellow;
+    color: darkblue;
+    box-shadow: 20px 20px 20px 0px rgb(0, 0, 0);
+}
+
+#password:hover{
+    background-color: aqua;
+    color: blue;
+    box-shadow: 20px 20px 20px 0px rgb(0, 0, 0);
+}
+
+#submit:hover{
+    background-color: wheat;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 16px 0px rgb(0, 0, 0);
+}
+
+
+
+
